@@ -1,0 +1,32 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore Docker related files
+.dockerignore
+
+# Ignore local environment files
+.env
+*.db
+# Ignore logs and other runtime data
+/logs/
+/*.log
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore system files from macOS
+.DS_Store
+
+# Ignore editor and IDE files
+.idea/
+.vscode/
+
+# Ignore any sensitive or generated files
+*.env
+
+*.pid
+*.err
+*.out
+
+# Ignore any virtual environment
+venv/
